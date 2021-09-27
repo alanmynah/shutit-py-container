@@ -11,7 +11,7 @@ def ping():
     return 'OK'
 
 # issue replication
-@app.route('/healthcheck', methods=['GET'])
+@app.route('/marco', methods=['GET'])
 def healthcheck():
     os.system("echo 'healthcheck'")
     # hangs inside create_session
